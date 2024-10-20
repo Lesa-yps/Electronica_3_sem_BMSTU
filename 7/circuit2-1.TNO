@@ -1,0 +1,222 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                     Transient Analysis of circuit2-1                     ***
+***                           18.12.2023 21:35:14                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           4u
+Output Start Time (tstart) 0
+Maximum Time Step          0
+Number of Points           5100
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          Off
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             5.000   2             0.000   3             5.000  
+4             0.000  
+
+
+Operating Point for Devices of Type Mosfet NMOS
+===============================================
+Instance:               M1
+Using model:        IRF531
+
+Capacitance Terms:
+CBD                 1.057n
+CBS                 0.000 
+CGSOVL            305.033p
+CGDOVL            164.984p
+CGBOVL              0.000 
+CGS                 0.000 
+CGD                 0.000 
+CGB                 0.000 
+
+Conductance Terms:
+GM                  0.000 
+GDS                 0.000 
+GMBS                0.000 
+
+Current Terms:
+ID                -12.500u
+
+Voltage Terms:
+VGS                -5.000 
+VDS                -5.000 
+VBS                -5.000 
+VGB                 0.000 
+VGD                 0.000 
+VDB                 0.000 
+VTH                 3.218 
+VDSAT               0.000 
+
+Power DC Terms:
+PD                 62.500u
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  0.000 
+Id                -12.500u
+Is                 12.500u
+Ib                 -5.010p
+
+Condition:
+State                  OFF
+
+Device Variables:
+m                   1.000 
+l                   0.000 
+w                   0.000 
+ad                  0.000 
+as                  0.000 
+pd                  0.000 
+ps                  0.000 
+nrd                 0.000 
+nrs                 0.000 
+nrb                 0.000 
+nrg                 0.000 
+vds                 0.000 
+vgs                 0.000 
+vbs                 0.000 
+
+
+
+Operating Point for Devices of Type Mosfet PMOS
+===============================================
+Instance:               M2
+Using model:       IRF9531
+
+Capacitance Terms:
+CBD                 1.136n
+CBS                 0.000 
+CGSOVL            621.014p
+CGDOVL            348.089p
+CGBOVL              0.000 
+CGS                 0.000 
+CGD                 0.000 
+CGB                 0.000 
+
+Conductance Terms:
+GM                  7.778u
+GDS                 2.851 
+GMBS                0.000 
+
+Current Terms:
+ID                 12.500u
+
+Voltage Terms:
+VGS                -5.000 
+VDS                 5.473u
+VBS                 5.473u
+VGB                -5.000 
+VGD                -5.000 
+VDB                 0.000 
+VTH                -3.393 
+VDSAT              -1.607 
+
+Power DC Terms:
+PD                 68.409p
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  0.000 
+Id                 12.500u
+Is                -12.500u
+Ib                  0.009f
+
+Condition:
+State                  LIN
+
+Device Variables:
+m                   1.000 
+l                   0.000 
+w                   0.000 
+ad                  0.000 
+as                  0.000 
+pd                  0.000 
+ps                  0.000 
+nrd                 0.000 
+nrs                 0.000 
+nrb                 0.000 
+nrg                 0.000 
+vds                 0.000 
+vgs                 0.000 
+vbs                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1
+V                    0.000 
+Power DC Terms:
+PD                   0.000 
+
+DC Pin Currents:
+Ir                   0.000 
+
+Device Variables:
+tc1                  0.000 
+tc2                  0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                C1            C2
+V                   -5.000         0.000 
+Power DC Terms:
+PS                   0.000         0.000 
+
+DC Pin Currents:
+Ic                   0.000         0.000 
+
+Device Variables:
+ic                   0.000         0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                V2
+Using model:          PULSE
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               V1
+V                   5.000 
+Power DC Terms:
+PG                 62.500u
+
+DC Pin Currents:
+ISource           -12.500u
+
+

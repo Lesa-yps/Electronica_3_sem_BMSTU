@@ -1,0 +1,47 @@
+********************************************************************************
+***              Micro-Cap 12.0.2.1 (32 bit) Evaluation Version              ***
+***                                                                          ***
+***                                                                          ***
+***                             DC Analysis of z                             ***
+***                           23.11.2023 23:25:25                            ***
+********************************************************************************
+Limits
+======
+Variable 1 Method        Linear
+Variable 1 Name          VC
+Variable 1 Range         0, -10, -0.5
+Variable 2 Method        List
+Variable 2 Name          I1
+Variable 2 Range         -250u, -500u, -750u
+Temperature              Linear 27
+Number of Points         51
+Maximum Change %         5
+Run Options              Normal
+Auto Scale Ranges        Off
+Accumulate Plots         Off
+Ignore Expression Errors Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=-0.00025                  ***
+*****************************************************
+
+Temperature=27 I1=-0.00025
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=-0.0005                   ***
+*****************************************************
+
+Temperature=27 I1=-0.0005
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                  I1=-0.00075                  ***
+*****************************************************
+
+Temperature=27 I1=-0.00075
+

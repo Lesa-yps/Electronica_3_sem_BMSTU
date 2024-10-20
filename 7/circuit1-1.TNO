@@ -1,0 +1,89 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                     Transient Analysis of circuit1-1                     ***
+***                           12.12.2023 23:16:27                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           1u
+Output Start Time (tstart) 0
+Maximum Time Step          0
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage 
+1            20.000   2             5.000  
+
+
+Operating Point for Devices of Type Jfet PJF
+============================================
+Instance:                J1
+Using model:           J271
+
+Capacitance Terms:
+CGS                  3.892p
+CGD                848.159p
+
+Conductance Terms:
+GM                 -36.620m
+GDS                 48.946m
+
+Current Terms:
+ID               5.457E+118
+
+Voltage Terms:
+VGS                  5.000 
+VDS                 20.000 
+VGD                -15.000 
+
+Power DC Terms:
+PD               8.186E+119
+PS                   0.000 
+
+DC Pin Currents:
+Ig              -5.457E+118
+Id               5.457E+118
+Is                -367.627m
+
+Condition:
+State                   HOT
+
+Device Variables:
+area                 1.000 
+vds                  0.000 
+vgs                  0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:               VZI            VSI
+V                    5.000         20.000 
+Power DC Terms:
+PG              -2.729E+119     1.091E+120
+
+DC Pin Currents:
+ISource          5.457E+118    -5.457E+118
+
+

@@ -1,0 +1,142 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.5 (64 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                     Transient Analysis of circuit1-4                     ***
+***                           15.12.2023 20:48:02                            ***
+********************************************************************************
+Limits
+======
+Maximum Run Time           10u
+Output Start Time (tstart) 0
+Maximum Time Step          0
+Number of Points           51
+Temperature                Linear 27
+Retrace Runs               1
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Operating Point Only       Off
+Auto Scale Ranges          Off
+Accumulate Plots           Off
+Fixed Time Step            Off
+Periodic Steady State      Off
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1            20.000   2            20.000   3             0.000  
+
+
+Operating Point for Devices of Type Mosfet NMOS
+===============================================
+Instance:               M1
+Using model:        IRF531
+
+Capacitance Terms:
+CBD               207.299p
+CBS                 0.000 
+CGSOVL            305.033p
+CGDOVL            164.984p
+CGBOVL              0.000 
+CGS                 0.000 
+CGD                 0.000 
+CGB                 0.000 
+
+Conductance Terms:
+GM                  0.000 
+GDS                 0.000 
+GMBS                0.000 
+
+Current Terms:
+ID                 50.000u
+
+Voltage Terms:
+VGS                 0.000 
+VDS                20.000 
+VBS                 0.000 
+VGB                 0.000 
+VGD               -20.000 
+VDB                20.000 
+VTH                 3.218 
+VDSAT               0.000 
+
+Power DC Terms:
+PD                999.987u
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  0.000 
+Id                 50.000u
+Is                -50.000u
+Ib                -20.010p
+
+Condition:
+State                  OFF
+
+Device Variables:
+m                   1.000 
+l                   0.000 
+w                   0.000 
+ad                  0.000 
+as                  0.000 
+pd                  0.000 
+ps                  0.000 
+nrd                 0.000 
+nrs                 0.000 
+nrb                 0.000 
+nrg                 0.000 
+vds                 0.000 
+vgs                 0.000 
+vbs                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1
+V                  134.999u
+Power DC Terms:
+PD                   6.750n
+
+DC Pin Currents:
+Ir                  50.000u
+
+Device Variables:
+tc1                  0.000 
+tc2                  0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                V1
+Using model:          PULSE
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:              VSI
+V                  20.000 
+Power DC Terms:
+PG                999.994u
+
+DC Pin Currents:
+ISource           -50.000u
+
+

@@ -1,0 +1,101 @@
+********************************************************************************
+***              Micro-Cap 12.0.2.1 (32 bit) Evaluation Version              ***
+***                                                                          ***
+***                                                                          ***
+***                         Dynamic DC of circuit1-1                         ***
+***                           07.12.2023 23:15:12                            ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             3.573   2             5.000   3             5.000  
+4            20.000  
+
+
+Operating Point for Devices of Type Jfet PJF
+============================================
+Instance:               J1
+Using model:          J271
+
+Capacitance Terms:
+CGS                 0.000 
+CGD                 0.000 
+
+Conductance Terms:
+GM               -114.636u
+GDS               114.636u
+
+Current Terms:
+ID                 32.854u
+
+Voltage Terms:
+VGS                 5.000 
+VDS                 3.573 
+VGD                 1.427 
+
+Power DC Terms:
+PD                117.392u
+PS                  0.000 
+
+DC Pin Currents:
+Ig                  6.447p
+Id                 32.854u
+Is                -32.854u
+
+Condition:
+State                  SAT
+
+Device Variables:
+area                1.000 
+vds                 0.000 
+vgs                 0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                R1
+V                   16.427 
+Power DC Terms:
+PD                 539.681u
+
+DC Pin Currents:
+Ir                  32.854u
+
+Device Variables:
+tc1                  0.000 
+tc2                  0.000 
+
+
+
+Operating Point for Devices of Type Pulse
+=========================================
+Instance:                V1
+Using model:          PULSE
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource             -6.447p
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:              VZI           VSI
+V                   5.000        20.000 
+Power DC Terms:
+PG                 32.234p      657.073u
+
+DC Pin Currents:
+ISource            -6.447p      -32.854u
+
+
